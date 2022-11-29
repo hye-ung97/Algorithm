@@ -1,12 +1,15 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 class Solution {
     public int[] solution(int n, String[] words) {
         
         ArrayList list = new ArrayList<String>();
         int[] answer = {0,0};
+        HashSet set = new HashSet<String>();
 
         for (int i = 0; i < words.length; i++) {
-            if(list.contains(words[i])){
+            set.add(words[i]);
+            if(set.size() != (i+1)){
                 answer[0] = (i % n) + 1;
                 answer[1] = (i / n) + 1;
                 break;
