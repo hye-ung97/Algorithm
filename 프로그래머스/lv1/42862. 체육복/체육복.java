@@ -1,43 +1,31 @@
 import java.util.*;
 class Solution {
     public int solution(int n, int[] lost, int[] reserve) {
-        Arrays.sort(lost);
-        Arrays.sort(reserve);
-        
-        ArrayList listlost = new ArrayList<>();
-        for(int item : lost){
-            listlost.add(item);
+        int answer = n - lost.length;
+
+        HashSet<Integer> reserveSet = new HashSet<>();
+        for (int item : reserve) {
+            reserveSet.add(item);
         }
 
-        ArrayList listre = new ArrayList<>();
-        for(int item : reserve){
-            listre.add(item);
-        }
-
-        ArrayList same = new ArrayList<>();
-        for (int i = 0; i < listlost.size(); i++) {
-            if(listre.contains(listlost.get(i))){
-                same.add(listlost.get(i));
-            }
-        }
-
-        if(same.size() !=0){
-            for (int i = 0; i < same.size(); i++) {
-                listlost.remove(listlost.indexOf(same.get(i)));
-                listre.remove(listre.indexOf(same.get(i)));
-            }
-        }
-
-        int answer = n - listlost.size();
-
-        for (int i = 0; i < listlost.size(); i++) {
-            int find = (int)listlost.get(i);
-            if(listre.contains(find-1)){
-                listre.remove(listre.indexOf(find-1));
+        HashSet<Integer> lostSet = new HashSet<>();
+        for (int item : lost) {
+            if(reserveSet.contains(item)){
+                reserveSet.remove(item);
                 answer++;
             }
-            else if(listre.contains(find+1)){
-                listre.remove(listre.indexOf(find+1));
+            else{
+                lostSet.add(item);
+            }
+        }
+
+        for(Integer item : lostSet){
+            if(reserveSet.contains(item-1)){
+                reserveSet.remove(item-1);
+                answer++;
+            }
+            else if(reserveSet.contains(item+1)){
+                reserveSet.remove(item+1);
                 answer++;
             }
         }
