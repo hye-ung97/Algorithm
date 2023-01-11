@@ -2,6 +2,12 @@ import java.util.Arrays;
 
 class Solution {
     public String solution(int[] numbers) {
+        
+        int sum = Arrays.stream(numbers).sum();
+        if(sum == 0){
+            return "0";
+        }
+        
         StringBuilder sb = new StringBuilder();
         if(numbers.length == 1){
             sb.append(numbers[0]);
@@ -16,10 +22,6 @@ class Solution {
                     return b - a;
                 })
                 .forEach(sb::append);
-        
-        if(sb.substring(0,1).equals("0")){
-            return "0";
-        }
 
         return sb.toString();
     }
