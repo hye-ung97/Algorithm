@@ -1,22 +1,21 @@
 class Solution {
     public int solution(String s) {
         int answer = 0;
-        int a = 0, b = 0 ;
+        int same = 0, diff = 0 ;
         char x = s.charAt(0);
         
         for(int i = 0; i < s.length(); i++){
             char cur = s.charAt(i);
             if(x == cur){
-                a++;
+                same++;
             }
             else{
-                b++;
+                diff++;
             }
             
-            if(a == b){
+            if(same == diff){
                 answer++;
-                a = 0;
-                b = 0;
+                same = diff = 0;
                 if(i + 1 < s.length()){
                     x = s.charAt(i + 1);
                 }
