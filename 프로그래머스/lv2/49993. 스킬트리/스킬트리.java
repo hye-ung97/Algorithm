@@ -6,10 +6,7 @@ int answer = 0;
             skill_trees[i] = skill_trees[i].replaceAll("[^"+skill+"]","");
             boolean flag = false;
             for (int j = 0; j < skill_trees[i].length(); j++) {
-                if(skill.charAt(j) == skill_trees[i].charAt(j)){
-                    continue;
-                }
-                else {
+                if(skill.charAt(j) != skill_trees[i].charAt(j)){
                     flag = true;
                     break;
                 }
