@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public int[] solution(int n, int s) {
         if(n > s){
@@ -9,9 +10,7 @@ class Solution {
 
         int[] answer = new int[n];
 
-        for (int i = 0; i < n; i++) {
-            answer[i] = num;
-        }
+        Arrays.fill(answer, num);
 
         for (int i = 0; i < remain; i++) {
             answer[n - i - 1] = answer[n - i - 1] + 1;
