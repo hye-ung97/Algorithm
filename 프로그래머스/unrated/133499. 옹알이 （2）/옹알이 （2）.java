@@ -1,22 +1,20 @@
 class Solution {
     public int solution(String[] babbling) {
         int answer = 0;
-        String a = "aya";
-        String b = "ye";
-        String c = "woo";
-        String d = "ma";
+        for (int i = 0; i < babbling.length; i++) {
+            String cur = babbling[i];
 
-        for(String bb : babbling){
-            if (bb.contains(a+a) || bb.contains(b+b) ||
-            bb.contains(c+c) || bb.contains(d+d)) {
+            if(cur.contains("ayaaya") || cur.contains("yeye") || cur.contains("woowoo")||cur.contains("mama")){
                 continue;
             }
-            bb = bb.replace(a, "1");
-            bb = bb.replace(b, "1");
-            bb = bb.replace(c, "1");
-            bb = bb.replace(d, "1");
-            bb = bb.replace("1", "");
-            if (bb.length() == 0) {
+
+            cur = cur.replace("aya", " ");
+            cur = cur.replace("ye", " ");
+            cur = cur.replace("woo", " ");
+            cur = cur.replace("ma", " ");
+            cur = cur.replace(" ", "");
+
+            if(cur.isEmpty()){
                 answer++;
             }
         }
