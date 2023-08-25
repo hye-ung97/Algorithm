@@ -10,7 +10,7 @@ class Solution {
             if(index>=numbers.length){
                 answer+=i;
             }
-            else if(index < numbers.length && numbers[index] !=i){
+            else if( numbers[index] !=i){
                 answer+=i;
             }
             else{
