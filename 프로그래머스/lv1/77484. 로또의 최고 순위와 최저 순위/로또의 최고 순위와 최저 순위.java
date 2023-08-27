@@ -5,9 +5,6 @@ class Solution {
     public int[] solution(int[] lottos, int[] win_nums) {
         int[] answer = new int[2];
         
-        Arrays.sort(lottos);
-        Arrays.sort(win_nums);
-        
         List<Integer> winLotto = Arrays.stream(win_nums).boxed().collect(Collectors.toList());
         
         int zero = 0;
