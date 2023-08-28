@@ -8,7 +8,7 @@
 
 ## 프로그래머스
 <details>
-<summary>Lv.0</summary>
+<summary>Lv.𝟘</summary>
 
 - [두수의 차](https://github.com/hye-ung97/Algorithm/tree/8e17a3d259acd86e646ec4db1fae74af52aad166/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv0/120803.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%EC%B0%A8)
 - [배열 두배 만들기](https://github.com/hye-ung97/Algorithm/tree/8e17a3d259acd86e646ec4db1fae74af52aad166/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv0/120809.%E2%80%85%EB%B0%B0%EC%97%B4%E2%80%85%EB%91%90%EB%B0%B0%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0)
@@ -25,7 +25,7 @@
 </details>
 
 <details>
-<summary>Lv.1</summary>
+<summary>Lv.𝟙</summary>
 
 - [성격 유형 검사하기](https://github.com/hye-ung97/Algorithm/tree/8e17a3d259acd86e646ec4db1fae74af52aad166/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv1/118666.%E2%80%85%EC%84%B1%EA%B2%A9%E2%80%85%EC%9C%A0%ED%98%95%E2%80%85%EA%B2%80%EC%82%AC%ED%95%98%EA%B8%B0)
 - [2016년](https://github.com/hye-ung97/Algorithm/tree/8e17a3d259acd86e646ec4db1fae74af52aad166/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv1/12901.%E2%80%852016%EB%85%84)
@@ -84,7 +84,7 @@
 </details>
 
 <details>
-<summary>Lv.2</summary>
+<summary>Lv.𝟚</summary>
 
 - [두 큐 합 같게 만들기](https://github.com/hye-ung97/Algorithm/tree/8e17a3d259acd86e646ec4db1fae74af52aad166/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv2/118667.%E2%80%85%EB%91%90%E2%80%85%ED%81%90%E2%80%85%ED%95%A9%E2%80%85%EA%B0%99%EA%B2%8C%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0)
 - [124 나라의 숫자](https://github.com/hye-ung97/Algorithm/tree/8e17a3d259acd86e646ec4db1fae74af52aad166/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv2/12899.%E2%80%85124%E2%80%85%EB%82%98%EB%9D%BC%EC%9D%98%E2%80%85%EC%88%AB%EC%9E%90)
@@ -144,7 +144,7 @@
 </details>
 
 <details>
-<summary>Lv.3</summary>
+<summary>Lv.𝟛</summary>
 
 - [가장 긴 팰린드롬](프로그래머스/lv3/12904. 가장 긴 팰린드롬)
 - [거스름돈](프로그래머스/lv3/12907. 거스름돈)
@@ -170,7 +170,7 @@
 </details>
 
 <details>
-<summary>Lv.4</summary>
+<summary>Lv.𝟜</summary>
 
 - [징검다리](프로그래머스/lv4/43236. 징검다리)
 - [호텔 방 배정](프로그래머스/lv4/64063. 호텔 방 배정)
@@ -180,28 +180,28 @@
 ## 백준
 
 <details>
-<summary>Bronze</summary>
+<summary>🥉 Bronze</summary>
 
 - []()
 
 </details>
 
 <details>
-<summary>Silver</summary>
+<summary>🥈 Silver</summary>
 
 - []()
 
 </details>
 
 <details>
-<summary>Gold</summary>
+<summary>🥇 Gold</summary>
 
 - []()
 
 </details>
 
 <details>
-<summary>Platinum</summary>
+<summary>💎 Platinum</summary>
 
 - [가장 긴 증가하는 부분 수열5](백준/Platinum/14003. 가장 긴 증가하는 부분 수열 5)
 - [K번째 최단경로 찾기](백준/Platinum/1854. K번째 최단경로 찾기)
