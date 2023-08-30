@@ -7,14 +7,13 @@ class Solution {
             pq.add(item);
         }
 
+        int cur = 0;
         while (!pq.isEmpty()){
-            int cur = pq.poll() + m;
-            while (!pq.isEmpty()){
-                if(pq.peek() >= cur){
-                    break;
-                }
+            if(pq.peek() < cur){
                 pq.poll();
+                continue;
             }
+            cur = pq.poll() + m;
             answer++;
         }
         return answer;
