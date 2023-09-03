@@ -143,6 +143,7 @@
 - [피로도](프로그래머스/lv2/87946. 피로도)
 - [k진수에서 소수 개수 구하기](프로그래머스/lv2/92335. k진수에서 소수 개수 구하기)
 - [주차 요금 계산](https://github.com/hye-ung97/Algorithm/tree/8e17a3d259acd86e646ec4db1fae74af52aad166/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv2/92341.%E2%80%85%EC%A3%BC%EC%B0%A8%E2%80%85%EC%9A%94%EA%B8%88%E2%80%85%EA%B3%84%EC%82%B0)
+- [택배상자](프로그래머스/lv2/131704. 택배상자)
 
 </details>
 
