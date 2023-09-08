@@ -3,8 +3,6 @@ class Solution {
     public int solution(String s) {
 
         ch = s.toCharArray();
-
-        ch = s.toCharArray();
         
         for (int len = s.length(); len > 1; len--) {
 
