@@ -7,10 +7,7 @@ public class Main {
         for (int i = 0 ; i < n ; i++){
             for (int j = 0; j< n;j++){
                 System.out.printf("%d ", count);
-                count++;
-                if(count > 9){
-                    count = 1;
-                }
+                count = (count % 9) + 1;
             }
             System.out.println();
         }
